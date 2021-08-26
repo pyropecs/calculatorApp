@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./calculator.png" />
+    <title>Calculator app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="display">
+        <input type="text" class="display-current" value="0" readonly />
+        <div class="display-equals"></div>
+      </section>
+      <section class="btn-container">
+        <button class="btn all-clear-entity grey">AC</button>
+        <button class="btn plus-minus grey">+/-</button>
+        <button class="btn operation divide grey">
+          <i class="fas fa-divide"></i>
+        </button>
+        <button class="btn backspace yellow">
+          <i class="fas fa-backspace"></i>
+        </button>
+        <button class="btn number">7</button>
+        <button class="btn number">8</button>
+        <button class="btn number">9</button>
+        <button class="btn operation yellow">x</button>
+        <button class="btn number">4</button>
+        <button class="btn number">5</button>
+        <button class="btn number">6</button>
+        <button class="btn operation yellow">-</button>
+        <button class="btn number">1</button>
+        <button class="btn number">2</button>
+        <button class="btn number">3</button>
+
+        <button class="btn operation yellow">+</button>
+        <button class="btn number btn-zero">0</button>
+        <button class="btn dot">.</button>
+        <button class="btn equalto yellow">=</button>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
